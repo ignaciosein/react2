@@ -10,7 +10,7 @@ function App() {
       
 
 <button onClick={()=>setCount(count+1)}>+</button>
-{count}
+<h1>{count}</h1>
 <button onClick={()=>setCount(count-1)}>-</button>
 
 
